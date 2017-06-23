@@ -1,0 +1,48 @@
+<resources>
+
+    <style name="txt_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/layout_margin</item>
+        <item name="android:paddingRight">@dimen/layout_margin</item>
+        <item name="android:paddingTop">@dimen/layout_margin</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/txt_title</item>
+        <item name="android:textSize">@dimen/txt_title</item>
+    </style>
+
+    <style name="txt_subtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/layout_margin</item>
+        <item name="android:paddingRight">@dimen/layout_margin</item>
+        <item name="android:paddingTop">@dimen/layout_margin</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/txt_title</item>
+        <item name="android:textSize">@dimen/txt_subtitle</item>
+    </style>
+
+    <style name="txt_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/layout_margin</item>
+        <item name="android:paddingRight">@dimen/layout_margin</item>
+        <item name="android:paddingTop">@dimen/layout_margin</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/txt_content</item>
+        <item name="android:textSize">@dimen/txt_content</item>
+    </style>
+
+    <style name="divider_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_line</item>
+        <item name="android:background">@color/divider_background</item>
+    </style>
+
+    <style name="divider_area">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_area</item>
+        <item name="android:background">@color/divider_background</item>
+    </style>
+
+</resources>

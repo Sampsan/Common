@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <com.sag.library.view.swipe.LoadingProgressView
+        android:id="@+id/pb_stl_refresh_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:progressDrawable="@drawable/refresh_loading"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_stl_refresh_header"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/refresh_down"/>
+
+    <TextView
+        android:id="@+id/tv_stl_refresh_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="下拉刷新"/>
+
+</LinearLayout>
